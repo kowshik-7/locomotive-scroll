@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>locomotive  scroll</title>
+    <link rel="icon" href="./images/logo.png">
+    <link rel="stylesheet" href="./stylee.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.0/dist/locomotive-scroll.css">
+</head>
+<body>
+    <div data-scroll-container="">
+
+        <section data-scroll-section="" class="section1">
+            <div class="nav" data-scroll="">
+                <img src="./images/logo.png" alt="bom logo" data-scroll="">
+            </div>
+            <div class="content">
+                <h1 data-scroll="" data-scroll-delay="0.18" data-scroll-speed="2">softrate Bom</h1>
+                <p data-scroll="" data-scroll-delay="0.25" data-scroll-speed="3">make construction simple</p>
+            </div>
+        </section>
+
+        <section data-scroll-section="" class="section4">
+            <!-- <img data-scroll="" data-scroll-delay="0.20" data-scroll-speed="5" src="./images/mind map 1.png" alt="screen shot"> -->
+            <img data-scroll="" data-scroll-delay="0.1" data-scroll-speed="1" src="./images/My project.png" alt="screen shot">
+            
+
+        </section>
+
+        <section data-scroll-section="" class="section2">
+            <img data-scroll="" data-scroll-delay="0.20" data-scroll-speed="5" src="./images/banner.jpg" alt="screen shot">
+            <p data-scroll="" data-scroll-delay="0.20" data-scroll-speed="5" class="dashboard">this is our dash board</p>
+
+        </section>
+
+        <section data-scroll-section="" class="section3">
+            <img data-scroll="" data-scroll-delay="0.20" data-scroll-speed="7" src="./images/banner.jpg" alt="screen shot">
+            <p data-scroll="" data-scroll-delay="0.20" data-scroll-speed="5" class="dashboard">this is our dash board</p>
+
+        </section>
+        
+        
+        
+        
+        <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.4/dist/locomotive-scroll.min.js"></script>
+        
+        <script>
+            const Locoscroll = new LocomotiveScroll({
+                el:document.querySelector("[data-scroll-container]"),
+                smooth:true,
+                smartphone:{
+                    smooth:true
+                }
+            });
+        </script>
+    </div>
+</body>
+</html>
