@@ -97,4 +97,12 @@ section{
 
 .section4{
     background-image: url(./images/mind\ map\ 1.png);
+    background-position: center;
+    background-size: contain;
+
+}
+
+.section4 img{
+    width: 100%;
+    height: 100vh;
 }
